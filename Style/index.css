@@ -1,8 +1,13 @@
+
 *{
     padding: 0%;
     margin: 0%;
+    font-family: "Emilys Candy", sans-serif, arial;
 
 }
+ body{
+    background-color: pink;
+ }
 
 header, footer{
     width: 100%;
@@ -20,7 +25,6 @@ nav{
 }
 
 h2{
-    font-family: grandsport, arial;
     font-size: 50pt;
 
 }
@@ -34,9 +38,8 @@ a{
 }
 
 #logo img {
-    width: 40px;
-    height: 40px;
-    background-color: rgb(214, 13, 13);
+    height: 60px;
+    background-color: aliceblue;
 }
 
 #menu{
@@ -54,7 +57,8 @@ a{
     border: 2px solid rgba(184, 182, 182, 0.096);
     border-radius: 5px;
     box-shadow: rgba(197, 63, 126, 0.425) 5px 5px 10px;
-    
+    gap: 10px;
+    background-color: aliceblue;
 }
 
 .bolos img{
@@ -66,4 +70,22 @@ a{
     display: flex;
     margin: 20px;
     gap: 30px;
+}
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+
+th,h1,td{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+#tabela {
+    text-align: center;
+}
+
+p{
+    text-align: justify;
 }
