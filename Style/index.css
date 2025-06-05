@@ -2,7 +2,7 @@
 *{
     padding: 0%;
     margin: 0%;
-    font-family: "Emilys Candy", sans-serif, arial;
+    font-family: "Edu NSW ACT Cursive", sans-serif, arial;
 
 }
  body{
@@ -92,7 +92,11 @@ p{
     text-align: justify;
 }
 
-.bolo:hover{
+.bolos:hover{
     transition: 0.5s;
     padding: 25px;
+}
+
+a{
+    color: black;
 }
