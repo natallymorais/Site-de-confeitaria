@@ -67,9 +67,11 @@ a{
 }
 
 #grupoBolos{
+    width: 100%;
     display: flex;
     margin: 20px;
     gap: 30px;
+    justify-content: center;
 }
 table{
     width: 400px;
@@ -88,4 +90,9 @@ th,h1,td{
 
 p{
     text-align: justify;
+}
+
+.bolo:hover{
+    transition: 0.5s;
+    padding: 25px;
 }
